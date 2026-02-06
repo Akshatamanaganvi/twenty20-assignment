@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 
-const API = "http://127.0.0.1:5000";
+const API = "https://twenty20-backend.onrender.com"; // ⭐ UPDATED
 
 export default function Login() {
   const [email, setEmail] = useState("");

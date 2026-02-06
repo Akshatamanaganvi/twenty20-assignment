@@ -8,6 +8,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/portfolio" element={<Portfolio />} />
+
+        {/* ⭐ IMPORTANT FOR VERCEL (handles refresh & direct links) */}
+        <Route path="*" element={<Login />} />
       </Routes>
     </BrowserRouter>
   );

@@ -420,5 +420,98 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ===============================
+   MOBILE RESPONSIVE STYLES
+   =============================== */
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .nav-container {
+    padding: 10px 16px;
+  }
+
+  .nav-links {
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+  }
+
+  .logout-btn {
+    padding: 6px 14px;
+    font-size: 12px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    height: auto;
+    padding: 120px 20px 60px;
+  }
+
+  .hero-img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero-sub {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .hero-desc {
+    font-size: 14px;
+  }
+
+  /* SECTIONS */
+  .section {
+    padding: 60px 20px;
+  }
+
+  .section h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  /* ABOUT */
+  .about-content {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  /* EDUCATION → stack cards vertically */
+  .edu-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* SKILLS */
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* PROJECTS */
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* CERTIFICATIONS */
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* FOOTER */
+  footer {
+    font-size: 14px;
+    padding: 20px;
+  }
+}
+
 
 
